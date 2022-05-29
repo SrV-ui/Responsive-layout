@@ -1,0 +1,13 @@
+@media screen and (max-width: 450px) {
+  .container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1245px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
